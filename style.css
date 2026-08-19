@@ -17,10 +17,19 @@ body {
   
   /* navigation menu */
   nav {
-    background: #ffcdef;
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
+    <nav class="bg-blue-500 p-4 rounded-lg mb-4 shadow-md">
+  <div class="flex justify-between items-center">
+    <h1 class="text-white text-2xl font-bold">Your Name's Amazing Website</h1>
+    <ul class="flex space-x-4">
+      <li>
+        <a href="index.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Home</a>
+      </li>
+      <li>
+        <a href="portfolio.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   }
   h1 {
     display: flex;
@@ -49,7 +58,7 @@ a {
 /* main container area beneath menu */
 main {
   
-   border{rounded} 
+   
   background: #ffcdef;
     display: flex;
     margin-top: 20px;
