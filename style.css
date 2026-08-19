@@ -48,7 +48,9 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: #ffcdef;
+  
+   border{rounded} 
+  background: #ffcdef;
     display: flex;
     margin-top: 20px;
 }
