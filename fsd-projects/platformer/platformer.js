@@ -40,6 +40,16 @@ $(function () {
     createPlatform(700,200,200,20,"pink");
     createPlatform(1000,100,200,20,"pink");
     createBadPlatform(500, 400, 100, 20, "red")
+    createBadPlatform(200, 700, 100, 20, "red")
+     createBadPlatform(300, 700, 100, 20, "red")
+      createBadPlatform(400, 700, 100, 20, "red")
+       createBadPlatform(500, 700, 100, 20, "red")
+        createBadPlatform(600, 700, 100, 20, "red")
+         createBadPlatform(700, 700, 100, 20, "red")
+          createBadPlatform(800, 700, 100, 20, "red")
+           createBadPlatform(900, 700, 100, 20, "red")
+            createBadPlatform(1000, 700, 100, 20, "red")
+             createBadPlatform(1100, 700, 100, 20, "red")
 
 
 
@@ -49,6 +59,8 @@ $(function () {
     createCollectable("steve", 400, 170, 0.5, 0.7);
     createCollectable("grace", 800, 170, 0.5, 0.7);
     createCollectable("max", 1100, 170, 0.5, 0.7);
+    
+
 
 
 
